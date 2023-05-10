@@ -26,7 +26,7 @@ from tensorflow.keras.optimizers import Adam, SGD
 from keras import backend as K
 from tensorflow.keras import losses
 from tensorflow.keras import models
-from tensorflow.keras.utils import multi_gpu_model
+from keras.utils import multi_gpu_model
 
 from utils import buildImageDataset, construct_feed_dict
 from custom_layers import *
